@@ -1,0 +1,34 @@
+/* CSS for Input Box */
+.Search_input
+{
+    color:gray;
+    height:29px;
+    border:0.8px solid lightgray!important;
+}
+.Search_input::placeholder
+{
+    font-size: 14px;
+    padding:8px;
+    font-family: Arial, Helvetica, sans-serif; 
+    vertical-align: middle!important;   
+}
+.Search_input:active
+{
+    border-color:lightgray!important;
+}
+/* CSS for Search button */
+.Search_button
+{
+    border-radius: 0px;
+    padding:6px 12px 2px 12px!important;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:14px;
+    margin-top: -50px!important;
+    border:0.8px solid lightgray!important;
+    background-color:white;
+    
+}
+.Search_button:active
+{
+    border-color:rgb(10, 10, 114);
+}
